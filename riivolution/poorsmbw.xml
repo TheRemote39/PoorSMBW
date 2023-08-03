@@ -1,0 +1,19 @@
+<wiidisc version="1" shiftfiles="true">
+	<id game="SMN">
+		<region type="P"/>
+		<region type="E"/>
+		<region type="J"/>
+		<region type="K"/>
+		<region type="W"/>
+	</id>
+    <options>
+        <section name="poorsmbw">
+            <option name="is mario poor?" id="poor" default="1">
+                <choice name="yes"><patch id="poor"/></choice>
+            </option>
+</section>
+    </options>
+    <patch id="poor">  
+		<folder external="/content" />
+</patch>
+</wiidisc>
